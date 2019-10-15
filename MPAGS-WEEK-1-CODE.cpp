@@ -6,6 +6,8 @@ int main()
 
   double b{43.2};
 
+  int b{43};
+
   return 0;
 
 }
