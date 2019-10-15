@@ -1,11 +1,15 @@
 #include <iostream>
+#include <string>
+
 int main()
 {
-  const int b{7};
+  std::string msg {"Here we go!"};
 
-  b = 13;
+  //Here I have initialised the string variable 'msg' with value 'Here we go!'
+   
+  std::cout << msg << std::endl;
 
-  std::cout << b << std::endl;
+  //Commands system to output msg
 
   return 0;
 
