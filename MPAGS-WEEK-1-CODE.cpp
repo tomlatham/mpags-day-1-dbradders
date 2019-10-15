@@ -1,7 +1,7 @@
 #include <iostream>
 int main()
 {
-  int b{1.2};
+  double b{1.2};
 
   b=201.9;
 
