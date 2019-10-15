@@ -8,7 +8,7 @@ int main()
 
   double c{1.1};
 
-  c = a*b;
+  c = a/b;
 
   std::cout << c << std::endl;  
  
