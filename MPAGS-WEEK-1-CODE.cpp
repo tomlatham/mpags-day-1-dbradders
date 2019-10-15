@@ -3,14 +3,16 @@
 
 int main()
 {
-  const char* charlie{"c"};
+  char in_char{'x'};
+  char c;
+  while (std::cin >> in_char)
+    {
+      c = toupper(in_char);
 
-  std::string msg {"Physics"};
+      std::cout << c << std::endl;
+    }
 
-  std::cout << charlie << std::endl;
 
-  std::cout << msg[5] << std::endl;
-  
+
   return 0;
-
 }
