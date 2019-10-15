@@ -1,11 +1,9 @@
 #include <iostream>
 int main()
 {
-  double b{1.2};
+ const double a{6.4};
 
-  b=201.9;
-
-  std::cout << b << std::endl;
+  std::cout << a << std::endl;
 
   return 0;
 
