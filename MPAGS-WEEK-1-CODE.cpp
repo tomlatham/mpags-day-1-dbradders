@@ -1,7 +1,7 @@
 #include <iostream>
 int main()
 {
-  int b{7};
+  const int b{7};
 
   b = 13;
 
