@@ -1,15 +1,10 @@
 #include <iostream>
-#include <string>
 
 int main()
 {
-  std::string msg {"Here we go!"};
+  int a{12};
 
-  //Here I have initialised the string variable 'msg' with value 'Here we go!'
-   
-  std::cout << msg << std::endl;
-
-  //Commands system to output msg
+  double b{43.2};
 
   return 0;
 
