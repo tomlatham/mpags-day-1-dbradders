@@ -1,11 +1,11 @@
 #include <iostream>
 int main()
 {
-  int a{51};
+  int b{1.2};
 
-  a=2019;
+  b=201.9;
 
-  std::cout << a << std::endl;
+  std::cout << b << std::endl;
 
   return 0;
 
