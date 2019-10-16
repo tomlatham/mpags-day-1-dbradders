@@ -15,47 +15,42 @@ int main()
 
   while (std::cin >> in_char)
     {
-      if (in_char == i)
-	{
+      c = toupper(in_char);
+
 	  switch (in_char)
 	    {
-	    case 0:
-	      c = "ZERO";
+	    case '0':
+	      c += "ZERO";
 	      break;
-	    case 1:
-	      c = "ONE";
+	    case '1':
+	      c += "ONE";
 	      break;
-	    case 2:
-	      c = "TWO";
+	    case '2':
+	      c += "TWO";
 	      break;
-	    case 3:
-	      c = "THREE";
+	    case '3':
+	      c += "THREE";
 	      break;
-	    case 4:
-	      c = "FOUR";
+	    case '4':
+	      c += "FOUR";
 	      break;
-	    case 5:
-	      c = "FIVE";
+	    case '5':
+	      c += "FIVE";
 	      break;
-	    case 6:
-	      c = "SIX";
+	    case '6':
+	      c += "SIX";
 	      break;
-	    case 7:
-	      c = "SEVEN";
+	    case '7':
+	      c += "SEVEN";
 	      break;
-	    case 8:
-	      c = "EIGHT";
+	    case '8':
+	      c += "EIGHT";
 	      break;
-	    case 9:
-	      c = "NINE";
+	    case '9':
+	      c += "NINE";
 	      break;	      
 	    }
-	}
 
-      else
-	{
-          c = toupper(in_char);
-	}
       std::cout << c << std::endl;
     }
 
