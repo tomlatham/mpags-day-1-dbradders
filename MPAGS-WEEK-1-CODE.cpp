@@ -5,17 +5,20 @@ int main()
 {
   char in_char{'x'};
 
-  char i[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+  //char i[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
   // i is an array of 10 numerical characters (0-9)
 
-  std::string c{"y"};
+  std::string c{""};
 
   // c is a string variable
 
   while (std::cin >> in_char)
     {
-      c = toupper(in_char);
+	    if ( isalpha(in_char) ) {
+        c += toupper(in_char);
+        continue;
+      }
 
 	  switch (in_char)
 	    {
@@ -51,8 +54,9 @@ int main()
 	      break;	      
 	    }
 
-      std::cout << c << std::endl;
     }
+
+  std::cout << c << std::endl;
 
   return 0;
 }
